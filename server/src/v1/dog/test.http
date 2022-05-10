@@ -47,5 +47,5 @@ Content-Type: application/json
 }
 
 
-### Delete single dog
+### Delete Single dog
 DELETE {{host}}/22 HTTP/1.1
