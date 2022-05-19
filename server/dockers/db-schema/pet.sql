@@ -14,3 +14,11 @@ CREATE TABLE cats(
     PRIMARY KEY (id),
     INDEX (name)
 );
+CREATE TABLE users(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(200) NOT NULL,
+    PRIMARY KEY (id),
+    INDEX (name)
+);
+
+INSERT INTO users (username, password) VALUES ('admin', 'admin');

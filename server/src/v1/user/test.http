@@ -1,0 +1,54 @@
+@host = http://127.0.0.1:6000/v1/users
+
+### Get all users
+GET {{host}}
+
+
+### Create new user
+POST {{host}}
+Content-Type: application/json
+
+{
+    "id": 0,
+    "username": "Paulo Gildo"
+    "password": "Password1"
+}
+
+
+### Update User
+PUT {{host}}
+Content-Type: application/json
+
+{
+    "id": 5,
+    "username": "Nickey Furry"
+    "password": "Password2"
+}
+
+
+### Delte user
+DELETE {{host}}
+Content-Type: application/json
+
+[8]
+
+
+
+### Get Single user
+GET {{host}}
+
+
+### Update Single user
+PUT {{host}}
+Content-Type: application/json
+
+{
+  "id": 1, 
+  "username": "Aberama Gold"
+  "password": "Password3"
+
+}
+
+
+### Delete Single user
+DELETE {{host}}
